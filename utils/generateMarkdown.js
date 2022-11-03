@@ -86,6 +86,7 @@ function generateMarkdown(data) {
   } = data
 
   return `
+  [${renderLicenseBadge(license)}](${renderLicenseLink(license)})
   
   # ${title}
 
