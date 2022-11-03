@@ -42,20 +42,24 @@ const questions = [
         name: "license",
         message: "Choose the appropriate License: ",
         choices: [
-          "Apache",
-          "Boost",
-          "GNU AGPLv3",
-          "GNU GPLv3",
-          "GNU LGPLv3",
-          "Mozilla",
-          "MIT",
+          'Apache License 2.0',
+          'GNU General Public License v3.0', 
+           'MIT License', 'BSD 2-Clause "Simplified" License', 
+           'BSD 3-Clause "New" or "Revised" License', 
+           'Boost Software License 1.0', 
+           'Creative Commons Zero v1.0 Universal', 
+           'GNU Affero General Public License v3.0',
+           'GNU General Public License v2.0',
+           'Mozilla Public License 2.0',
+           'The Unlicense',
+           'None'
         ],
       },
       {
-        //testing protocals
+        //testing protocols
         type: "input",
         name: "testing",
-        message: "Please enter any testing protocols you used for your project?",
+        message: "Please enter any testing protocols you used for your project:",
       },
       {
         type: "input",
@@ -64,7 +68,12 @@ const questions = [
       },
       {
         type: "input",
-        name: "Username",
+        name: "contributors",
+        message: "Enter any additional contributors: ",
+      },
+      {
+        type: "input",
+        name: "username",
         message: "What is your GitHub username?",
       },
       {
@@ -75,7 +84,7 @@ const questions = [
       {
         type: "input",
         name: "URL",
-        message: "Enter the Repository URL",
+        message: "Enter the Repository URL: ",
       },
       
 ];
@@ -96,7 +105,7 @@ function init() {
         const readme = generateMarkdown(answers)
         // console.log(readme)
 
-        writeToFile('./readme-sample.md', readme)
+        writeToFile('./readme-demo.md', readme)
     })
     .catch(err => console.log(err))
 }
