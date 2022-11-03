@@ -93,7 +93,7 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err
-        console.log('README has been successfully saved!')
+        console.log('README has been successfully saved! You can find the results in readme-demo.md in the utils folder. ')
     })
 }
 
