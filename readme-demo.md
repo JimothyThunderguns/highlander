@@ -1,46 +1,44 @@
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  # Jill is my wife
+  # Project Sunshine
 
   ## Description of Project
-  I love my wife
+  This is a sample description
 
   ##Motivation
-  I love my wife
+  My motivations are unclear even to my self
 
 
   ##Table of Contents
   1. [Installation](#installation)
   2. [Usage](#usage)
   3. [License](#license)
-  4. [Contributors](#contributors)
-  5. [Contributors](#contributors)
+  4. [Author](#Author)
   6. [Contributors](#contributors)
   7. [Tests](#tests)
   8. [Questions](#questions)
 
   ## Installation 
-  I want to kiss my wife
+  There are no instructions to be had.
 
   ##Usage
-  To love my wife
+  To harness the power of the unconquerable sun or something
 
-  ##Contributors
-  Nobody contributes to my wife but me
-
-  ##Git Username
+  ## Contributors
+  I work alone
 
   
   ## License
-  BSD 2-Clause "Simplified" License: https://opensource.org/licenses/BSD-2-Clause
+  MIT License: https://opensource.org/licenses/MIT
   
-  ##Contributors
-  Nobody contributes to my wife but me
+  ## Contributors
+  I work alone
 
   ##Tests
-  Don't test my wife
+  Testing is for amateurs, we ball like pros
 
   ##Questions
- Repo Link: hhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+ Repo Link: www.thesunisminenow.com
 
-Contact Jillismywife.com or undefined if you have any further questions.
+Contact rcjackson96@gmail.com or undefined if you have any further questions.
