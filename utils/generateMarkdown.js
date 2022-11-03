@@ -100,9 +100,10 @@ function generateMarkdown(data) {
   1. [Installation](#installation)
   2. [Usage](#usage)
   3. [License](#license)
-  4. [Contributors](#contributors)
-  5. [Tests](#tests)
-  6. [Questions](#questions)
+  4. [Author](#Author)
+  6. [Contributors](#contributors)
+  7. [Tests](#tests)
+  8. [Questions](#questions)
 
   ## Installation 
   ${installation}
@@ -110,13 +111,13 @@ function generateMarkdown(data) {
   ##Usage
   ${usage}
 
-  ##Contributors
+  ## Contributors
   ${contributors}
 
-  ##License 
+  
   ${renderLicenseSection(license)}
   
-  ##Contributors
+  ## Contributors
   ${contributors}
 
   ##Tests
@@ -125,7 +126,7 @@ function generateMarkdown(data) {
   ##Questions
  Repo Link: ${URL}
 
-Contact ${email} or ${Username}if you have any further questions.
+Contact ${email} or ${Username} if you have any further questions.
 `;
 }
 
